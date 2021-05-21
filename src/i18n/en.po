@@ -10,8 +10,8 @@ msgstr ""
 msgid "{addresses} send and receive transactions."
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:24
-#: src/components/stake/StakeValidatorListItem.vue:56
+#: src/components/stake/StakeValidatorListItem.vue:31
+#: src/components/stake/StakeValidatorListItem.vue:63
 msgid "{brandName} Website"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "{count} pending Cashlink | {count} pending Cashlinks"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:20
+#: src/components/stake/StakeValidatorListItem.vue:27
 msgid "{disclaimer}"
 msgstr ""
 
@@ -49,7 +49,7 @@ msgstr ""
 msgid "{number} times"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:43
+#: src/components/stake/StakeValidatorListItem.vue:50
 msgid "{number}% Uptime"
 msgstr ""
 
@@ -62,11 +62,15 @@ msgstr ""
 msgid "{perc}% of swap value."
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:53
+#: src/components/stake/partials/AlreadyStakedPartial.vue:17
+msgid "{percentage}% of address's balance"
+msgstr ""
+
+#: src/components/stake/StakeValidatorListItem.vue:60
 msgid "{text}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:17
+#: src/components/stake/StakeValidatorListItem.vue:24
 msgid "{validatorDescription}"
 msgstr ""
 
@@ -501,7 +505,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:22
+#: src/components/stake/StakeGraphPage.vue:28
 msgid "confirm stake"
 msgstr ""
 
@@ -1117,7 +1121,7 @@ msgstr ""
 msgid "One Account, many Addresses"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:66
+#: src/components/stake/StakeValidatorListItem.vue:73
 msgid "p.a."
 msgstr ""
 
@@ -1133,11 +1137,11 @@ msgstr ""
 msgid "Payout Time"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:106
+#: src/components/stake/StakeValidatorListItem.vue:113
 msgid "pays out {numberOfTimes} a {period}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:103
+#: src/components/stake/StakeValidatorListItem.vue:110
 msgid "pays out every {hourCount}"
 msgstr ""
 
@@ -1727,7 +1731,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:25
+#: src/components/stake/StakeGraphPage.vue:31
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1791,7 +1795,7 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:87
+#: src/components/stake/StakeGraphPage.vue:102
 msgid "will be available within ~{duration}"
 msgstr ""
 
