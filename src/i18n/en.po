@@ -10,8 +10,8 @@ msgstr ""
 msgid "{addresses} send and receive transactions."
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:31
-#: src/components/stake/StakeValidatorListItem.vue:63
+#: src/components/stake/StakeValidatorListItem.vue:29
+#: src/components/stake/StakeValidatorListItem.vue:61
 msgid "{brandName} Website"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "{count} pending Cashlink | {count} pending Cashlinks"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:27
+#: src/components/stake/StakeValidatorListItem.vue:25
 msgid "{disclaimer}"
 msgstr ""
 
@@ -49,11 +49,11 @@ msgstr ""
 msgid "{number} times"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:50
+#: src/components/stake/StakeValidatorListItem.vue:48
 msgid "{number}% Uptime"
 msgstr ""
 
-#: src/components/stake/graph/StakingGraph.vue:89
+#: src/components/stake/graph/StakingGraph.vue:91
 msgid "{number}M"
 msgstr ""
 
@@ -66,11 +66,11 @@ msgstr ""
 msgid "{percentage}% of address's balance"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:60
+#: src/components/stake/StakeValidatorListItem.vue:58
 msgid "{text}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:24
+#: src/components/stake/StakeValidatorListItem.vue:22
 msgid "{validatorDescription}"
 msgstr ""
 
@@ -470,10 +470,6 @@ msgstr ""
 msgid "Choose an Address"
 msgstr ""
 
-#: src/components/stake/StakeInfoPage.vue:25
-msgid "Choose an amount"
-msgstr ""
-
 #: src/lib/DataFormatting.ts:18
 msgid "Claiming Cashlink"
 msgstr ""
@@ -505,7 +501,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:28
+#: src/components/stake/StakeGraphPage.vue:53
 msgid "confirm stake"
 msgstr ""
 
@@ -829,6 +825,10 @@ msgstr ""
 msgid "Handling multiple addresses is now convenient and easy – with one password and shared login information."
 msgstr ""
 
+#: src/components/stake/StakeInfoPage.vue:13
+msgid "Help secure the network by locking up NIM and get a percentage as a reward."
+msgstr ""
+
 #: src/components/modals/BtcTransactionModal.vue:211
 #: src/components/modals/TransactionModal.vue:221
 msgid "Historic value"
@@ -946,7 +946,7 @@ msgstr ""
 msgid "Let's get started! Create your Nimiq account:"
 msgstr ""
 
-#: src/components/stake/StakeInfoPage.vue:32
+#: src/components/stake/StakeInfoPage.vue:31
 msgid "let's go"
 msgstr ""
 
@@ -1121,7 +1121,7 @@ msgstr ""
 msgid "One Account, many Addresses"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:73
+#: src/components/stake/StakeValidatorListItem.vue:71
 msgid "p.a."
 msgstr ""
 
@@ -1137,11 +1137,11 @@ msgstr ""
 msgid "Payout Time"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:113
+#: src/components/stake/StakeValidatorListItem.vue:111
 msgid "pays out {numberOfTimes} a {period}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:110
+#: src/components/stake/StakeValidatorListItem.vue:108
 msgid "pays out every {hourCount}"
 msgstr ""
 
@@ -1314,10 +1314,6 @@ msgstr ""
 msgid "Select a currency and an amount."
 msgstr ""
 
-#: src/components/stake/StakeInfoPage.vue:21
-msgid "Select a validator"
-msgstr ""
-
 #: src/components/layouts/Settings.vue:125
 msgid "Select which unit to show Bitcoin amounts in."
 msgstr ""
@@ -1455,6 +1451,10 @@ msgstr ""
 msgid "Skip for now"
 msgstr ""
 
+#: src/components/stake/StakeInfoPage.vue:27
+msgid "So called validators facilitate this process. Choose one to stake on your behalf, set an amount and go."
+msgstr ""
+
 #: src/components/modals/BtcSendModal.vue:500
 #: src/components/modals/SendModal.vue:558
 msgid "Something went wrong"
@@ -1478,10 +1478,6 @@ msgstr ""
 
 #: src/components/modals/SendModal.vue:367
 msgid "standard"
-msgstr ""
-
-#: src/components/stake/StakeInfoPage.vue:29
-msgid "Start earning NIM"
 msgstr ""
 
 #: src/components/modals/WelcomeModal.vue:7
@@ -1731,7 +1727,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:31
+#: src/components/stake/StakeGraphPage.vue:56
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1781,10 +1777,6 @@ msgstr ""
 msgid "Waiting for Nimiq network informations"
 msgstr ""
 
-#: src/components/stake/StakeInfoPage.vue:13
-msgid "Welcome to staking. Lock up funds with a validator and earn NIM free of risk."
-msgstr ""
-
 #: src/components/modals/BuyCryptoModal.vue:22
 msgid ""
 "Welcome to the first fiat-to-crypto atomic swap.\n"
@@ -1795,7 +1787,7 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:102
+#: src/components/stake/StakeGraphPage.vue:131
 msgid "will be available within ~{duration}"
 msgstr ""
 
