@@ -10,8 +10,8 @@ msgstr ""
 msgid "{addresses} send and receive transactions."
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:29
-#: src/components/stake/StakeValidatorListItem.vue:90
+#: src/components/stake/StakeValidatorListItem.vue:31
+#: src/components/stake/StakeValidatorListItem.vue:92
 msgid "{brandName} Website"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "{count} pending Cashlink | {count} pending Cashlinks"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:25
+#: src/components/stake/StakeValidatorListItem.vue:27
 msgid "{disclaimer}"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "{number} {magnitude}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:67
+#: src/components/stake/StakeValidatorListItem.vue:69
 msgid "{number} months old"
 msgstr ""
 
@@ -53,11 +53,11 @@ msgstr ""
 msgid "{number} times"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:79
+#: src/components/stake/StakeValidatorListItem.vue:81
 msgid "{number}% Dominance"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:55
+#: src/components/stake/StakeValidatorListItem.vue:57
 msgid "{number}% Uptime"
 msgstr ""
 
@@ -74,13 +74,13 @@ msgstr ""
 msgid "{percentage}% of address's balance"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:62
-#: src/components/stake/StakeValidatorListItem.vue:74
-#: src/components/stake/StakeValidatorListItem.vue:86
+#: src/components/stake/StakeValidatorListItem.vue:64
+#: src/components/stake/StakeValidatorListItem.vue:76
+#: src/components/stake/StakeValidatorListItem.vue:88
 msgid "{text}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:22
+#: src/components/stake/StakeValidatorListItem.vue:24
 msgid "{validatorDescription}"
 msgstr ""
 
@@ -511,7 +511,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:69
+#: src/components/stake/StakeGraphPage.vue:71
 msgid "confirm stake"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "One Account, many Addresses"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:101
+#: src/components/stake/StakeValidatorListItem.vue:109
 msgid "p.a."
 msgstr ""
 
@@ -1171,11 +1171,11 @@ msgstr ""
 msgid "Payout Time"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:141
+#: src/components/stake/StakeValidatorListItem.vue:156
 msgid "pays out {numberOfTimes} a {period}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:138
+#: src/components/stake/StakeValidatorListItem.vue:153
 msgid "pays out every {hourCount}"
 msgstr ""
 
@@ -1653,6 +1653,10 @@ msgstr ""
 msgid "This is a single-use address"
 msgstr ""
 
+#: src/components/stake/StakeValidatorListItem.vue:115
+msgid "This is depending on the network and can vary. Learn more at “Estimated rewards”"
+msgstr ""
+
 #: src/components/BtcAddressInput.vue:15
 msgid "This is not a valid address"
 msgstr ""
@@ -1777,7 +1781,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:72
+#: src/components/stake/StakeGraphPage.vue:74
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1837,7 +1841,7 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:147
+#: src/components/stake/StakeGraphPage.vue:149
 msgid "will be available within ~{duration}"
 msgstr ""
 
@@ -1941,6 +1945,10 @@ msgstr ""
 
 #: src/components/swap/SwapSepaFundingInstructions.vue:113
 msgid "Your payment has not been received yet. There might be an issue."
+msgstr ""
+
+#: src/components/stake/StakeValidatorListItem.vue:112
+msgid "Your projected return within one year."
 msgstr ""
 
 #: src/components/swap/SwapSepaFundingInstructions.vue:61
