@@ -11,7 +11,7 @@ msgid "{addresses} send and receive transactions."
 msgstr ""
 
 #: src/components/stake/StakeValidatorListItem.vue:31
-#: src/components/stake/StakeValidatorListItem.vue:92
+#: src/components/stake/StakeValidatorListItem.vue:98
 msgid "{brandName} Website"
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr ""
 msgid "{number} times"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:81
+#: src/components/stake/StakeValidatorListItem.vue:84
 msgid "{number}% Dominance"
 msgstr ""
 
@@ -76,7 +76,7 @@ msgstr ""
 
 #: src/components/stake/StakeValidatorListItem.vue:64
 #: src/components/stake/StakeValidatorListItem.vue:76
-#: src/components/stake/StakeValidatorListItem.vue:88
+#: src/components/stake/StakeValidatorListItem.vue:94
 msgid "{text}"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "One Account, many Addresses"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:109
+#: src/components/stake/StakeValidatorListItem.vue:115
 msgid "p.a."
 msgstr ""
 
@@ -1171,11 +1171,11 @@ msgstr ""
 msgid "Payout Time"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:156
+#: src/components/stake/StakeValidatorListItem.vue:162
 msgid "pays out {numberOfTimes} a {period}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:153
+#: src/components/stake/StakeValidatorListItem.vue:159
 msgid "pays out every {hourCount}"
 msgstr ""
 
@@ -1653,7 +1653,7 @@ msgstr ""
 msgid "This is a single-use address"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:115
+#: src/components/stake/StakeValidatorListItem.vue:121
 msgid "This is depending on the network and can vary. Learn more at “Estimated rewards”"
 msgstr ""
 
@@ -1947,7 +1947,7 @@ msgstr ""
 msgid "Your payment has not been received yet. There might be an issue."
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:112
+#: src/components/stake/StakeValidatorListItem.vue:118
 msgid "Your projected return within one year."
 msgstr ""
 
