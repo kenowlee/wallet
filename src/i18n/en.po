@@ -10,8 +10,8 @@ msgstr ""
 msgid "{addresses} send and receive transactions."
 msgstr ""
 
-#: src/components/stake/tooltips/LabelTooltip.vue:16
-#: src/components/stake/tooltips/ScoreTooltip.vue:60
+#: src/components/stake/tooltips/LabelTooltip.vue:24
+#: src/components/stake/tooltips/ScoreTooltip.vue:62
 msgid "{brandName} Website"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "{count} pending Cashlink | {count} pending Cashlinks"
 msgstr ""
 
-#: src/components/stake/tooltips/LabelTooltip.vue:12
+#: src/components/stake/tooltips/LabelTooltip.vue:20
 msgid "{disclaimer}"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "{number} {magnitude}"
 msgstr ""
 
-#: src/components/stake/tooltips/ScoreTooltip.vue:33
+#: src/components/stake/tooltips/ScoreTooltip.vue:35
 msgid "{number} months old"
 msgstr ""
 
@@ -53,11 +53,11 @@ msgstr ""
 msgid "{number} times"
 msgstr ""
 
-#: src/components/stake/tooltips/ScoreTooltip.vue:47
+#: src/components/stake/tooltips/ScoreTooltip.vue:49
 msgid "{number}% Dominance"
 msgstr ""
 
-#: src/components/stake/tooltips/ScoreTooltip.vue:22
+#: src/components/stake/tooltips/ScoreTooltip.vue:24
 msgid "{number}% Uptime"
 msgstr ""
 
@@ -74,13 +74,13 @@ msgstr ""
 msgid "{percentage}% of address's balance"
 msgstr ""
 
-#: src/components/stake/tooltips/ScoreTooltip.vue:29
-#: src/components/stake/tooltips/ScoreTooltip.vue:40
-#: src/components/stake/tooltips/ScoreTooltip.vue:57
+#: src/components/stake/tooltips/ScoreTooltip.vue:31
+#: src/components/stake/tooltips/ScoreTooltip.vue:42
+#: src/components/stake/tooltips/ScoreTooltip.vue:59
 msgid "{text}"
 msgstr ""
 
-#: src/components/stake/tooltips/LabelTooltip.vue:9
+#: src/components/stake/tooltips/LabelTooltip.vue:17
 msgid "{validatorDescription}"
 msgstr ""
 
@@ -511,7 +511,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:85
+#: src/components/stake/StakeGraphPage.vue:88
 msgid "confirm stake"
 msgstr ""
 
@@ -1155,7 +1155,7 @@ msgstr ""
 msgid "One Account, many Addresses"
 msgstr ""
 
-#: src/components/stake/tooltips/RewardTooltip.vue:10
+#: src/components/stake/tooltips/RewardTooltip.vue:13
 msgid "p.a."
 msgstr ""
 
@@ -1657,7 +1657,7 @@ msgstr ""
 msgid "This is a single-use address"
 msgstr ""
 
-#: src/components/stake/tooltips/RewardTooltip.vue:16
+#: src/components/stake/tooltips/RewardTooltip.vue:19
 msgid "This is depending on the network and can vary. Learn more at “Estimated rewards”"
 msgstr ""
 
@@ -1785,7 +1785,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:88
+#: src/components/stake/StakeGraphPage.vue:91
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1845,7 +1845,7 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:168
+#: src/components/stake/StakeGraphPage.vue:171
 msgid "will be available within ~{duration}"
 msgstr ""
 
@@ -1951,7 +1951,7 @@ msgstr ""
 msgid "Your payment has not been received yet. There might be an issue."
 msgstr ""
 
-#: src/components/stake/tooltips/RewardTooltip.vue:13
+#: src/components/stake/tooltips/RewardTooltip.vue:16
 msgid "Your projected return within one year."
 msgstr ""
 
