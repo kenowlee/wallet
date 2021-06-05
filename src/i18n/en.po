@@ -511,7 +511,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:88
+#: src/components/stake/StakeGraphPage.vue:100
 msgid "confirm stake"
 msgstr ""
 
@@ -1171,11 +1171,11 @@ msgstr ""
 msgid "Payout Time"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:69
+#: src/components/stake/StakeValidatorListItem.vue:75
 msgid "pays out {numberOfTimes} a {period}"
 msgstr ""
 
-#: src/components/stake/StakeValidatorListItem.vue:66
+#: src/components/stake/StakeValidatorListItem.vue:72
 msgid "pays out every {hourCount}"
 msgstr ""
 
@@ -1430,7 +1430,7 @@ msgstr ""
 msgid "Set Amount"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:6
+#: src/components/stake/StakeGraphPage.vue:13
 msgid "Set an Amount"
 msgstr ""
 
@@ -1520,6 +1520,10 @@ msgstr ""
 
 #: src/components/LegacyAccountNotice.vue:28
 msgid "Staking"
+msgstr ""
+
+#: src/components/stake/StakeGraphPage.vue:7
+msgid "Staking with {validator}"
 msgstr ""
 
 #: src/components/modals/SendModal.vue:367
@@ -1785,7 +1789,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:91
+#: src/components/stake/StakeGraphPage.vue:103
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1819,7 +1823,7 @@ msgstr ""
 msgid "Use the slider or edit values to set up a swap."
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:10
+#: src/components/stake/StakeGraphPage.vue:20
 msgid "Use the slider to lock your NIM and earn rewards."
 msgstr ""
 
@@ -1845,7 +1849,7 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:171
+#: src/components/stake/StakeGraphPage.vue:174
 msgid "will be available within ~{duration}"
 msgstr ""
 
