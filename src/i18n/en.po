@@ -71,6 +71,7 @@ msgid "{perc}% of swap value."
 msgstr ""
 
 #: src/components/stake/partials/AlreadyStakedPartial.vue:17
+#: src/components/stake/StakedAlreadyPage.vue:56
 msgid "{percentage}% of address's balance"
 msgstr ""
 
@@ -511,7 +512,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:100
+#: src/components/stake/StakeGraphPage.vue:71
 msgid "confirm stake"
 msgstr ""
 
@@ -1318,6 +1319,7 @@ msgid "Reward"
 msgstr ""
 
 #: src/components/stake/partials/AlreadyStakedPartial.vue:48
+#: src/components/stake/StakedAlreadyPage.vue:86
 msgid "Rewards history"
 msgstr ""
 
@@ -1430,7 +1432,7 @@ msgstr ""
 msgid "Set Amount"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:13
+#: src/components/stake/StakeGraphPage.vue:5
 msgid "Set an Amount"
 msgstr ""
 
@@ -1522,7 +1524,7 @@ msgstr ""
 msgid "Staking"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:7
+#: src/components/stake/StakedAlreadyPage.vue:6
 msgid "Staking with {validator}"
 msgstr ""
 
@@ -1789,7 +1791,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:103
+#: src/components/stake/StakeGraphPage.vue:74
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1823,7 +1825,7 @@ msgstr ""
 msgid "Use the slider or edit values to set up a swap."
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:20
+#: src/components/stake/StakeGraphPage.vue:9
 msgid "Use the slider to lock your NIM and earn rewards."
 msgstr ""
 
@@ -1849,7 +1851,8 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:174
+#: src/components/stake/StakedAlreadyPage.vue:153
+#: src/components/stake/StakeGraphPage.vue:144
 msgid "will be available within ~{duration}"
 msgstr ""
 
