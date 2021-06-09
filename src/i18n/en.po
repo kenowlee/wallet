@@ -10,7 +10,7 @@ msgstr ""
 msgid "{addresses} send and receive transactions."
 msgstr ""
 
-#: src/components/stake/tooltips/LabelTooltip.vue:24
+#: src/components/stake/tooltips/LabelTooltip.vue:23
 #: src/components/stake/tooltips/ScoreTooltip.vue:62
 msgid "{brandName} Website"
 msgstr ""
@@ -29,7 +29,7 @@ msgstr ""
 msgid "{count} pending Cashlink | {count} pending Cashlinks"
 msgstr ""
 
-#: src/components/stake/tooltips/LabelTooltip.vue:20
+#: src/components/stake/tooltips/LabelTooltip.vue:19
 msgid "{disclaimer}"
 msgstr ""
 
@@ -61,7 +61,7 @@ msgstr ""
 msgid "{number}% Uptime"
 msgstr ""
 
-#: src/components/stake/graph/StakingGraph.vue:89
+#: src/components/stake/graph/StakingGraph.vue:91
 msgid "{number}M"
 msgstr ""
 
@@ -70,7 +70,6 @@ msgstr ""
 msgid "{perc}% of swap value."
 msgstr ""
 
-#: src/components/stake/partials/AlreadyStakedPartial.vue:17
 #: src/components/stake/StakedAlreadyPage.vue:56
 msgid "{percentage}% of address's balance"
 msgstr ""
@@ -81,7 +80,7 @@ msgstr ""
 msgid "{text}"
 msgstr ""
 
-#: src/components/stake/tooltips/LabelTooltip.vue:17
+#: src/components/stake/tooltips/LabelTooltip.vue:16
 msgid "{validatorDescription}"
 msgstr ""
 
@@ -512,7 +511,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:71
+#: src/components/stake/StakeGraphPage.vue:70
 msgid "confirm stake"
 msgstr ""
 
@@ -1318,8 +1317,7 @@ msgstr ""
 msgid "Reward"
 msgstr ""
 
-#: src/components/stake/partials/AlreadyStakedPartial.vue:48
-#: src/components/stake/StakedAlreadyPage.vue:86
+#: src/components/stake/StakedAlreadyPage.vue:87
 msgid "Rewards history"
 msgstr ""
 
@@ -1791,7 +1789,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
-#: src/components/stake/StakeGraphPage.vue:74
+#: src/components/stake/StakeGraphPage.vue:73
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
@@ -1851,8 +1849,8 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakedAlreadyPage.vue:153
-#: src/components/stake/StakeGraphPage.vue:144
+#: src/components/stake/StakedAlreadyPage.vue:151
+#: src/components/stake/StakeGraphPage.vue:140
 msgid "will be available within ~{duration}"
 msgstr ""
 
