@@ -1849,8 +1849,8 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakedAlreadyPage.vue:153
-#: src/components/stake/StakeGraphPage.vue:148
+#: src/components/stake/StakedAlreadyPage.vue:150
+#: src/components/stake/StakeGraphPage.vue:149
 msgid "will be available within ~{duration}"
 msgstr ""
 
