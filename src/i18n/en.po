@@ -24,7 +24,7 @@ msgstr ""
 msgid "{count} Peer | {count} Peers"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:101
+#: src/components/layouts/AddressOverview.vue:104
 #: src/components/layouts/AddressOverview.vue:16
 msgid "{count} pending Cashlink | {count} pending Cashlinks"
 msgstr ""
@@ -70,7 +70,7 @@ msgstr ""
 msgid "{perc}% of swap value."
 msgstr ""
 
-#: src/components/stake/StakedAlreadyPage.vue:56
+#: src/components/stake/StakedAlreadyPage.vue:57
 msgid "{percentage}% of address's balance"
 msgstr ""
 
@@ -661,7 +661,7 @@ msgstr ""
 msgid "Early Access means that there are limits in place for swaps. They may be increased gradually."
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:122
+#: src/components/stake/partials/StakeButtonPartial.vue:16
 msgid "Earn ~304 NIM a month by staking your NIM"
 msgstr ""
 
@@ -908,7 +908,7 @@ msgstr ""
 msgid "Improved Accessibility"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:171
+#: src/components/layouts/AddressOverview.vue:157
 msgid "Include #NimiqOASIS"
 msgstr ""
 
@@ -964,7 +964,7 @@ msgstr ""
 msgid "Learn more here"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:156
+#: src/components/layouts/AddressOverview.vue:142
 msgid "Let's get started! Create your Nimiq account:"
 msgstr ""
 
@@ -1232,7 +1232,7 @@ msgstr ""
 msgid "Purpose"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:129
+#: src/components/layouts/AddressOverview.vue:115
 #: src/components/MobileActionBar.vue:4
 msgid "Receive"
 msgstr ""
@@ -1317,7 +1317,7 @@ msgstr ""
 msgid "Reward"
 msgstr ""
 
-#: src/components/stake/StakedAlreadyPage.vue:87
+#: src/components/stake/StakedAlreadyPage.vue:88
 msgid "Rewards history"
 msgstr ""
 
@@ -1360,7 +1360,7 @@ msgstr ""
 msgid "Sell"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:137
+#: src/components/layouts/AddressOverview.vue:123
 #: src/components/MobileActionBar.vue:10
 msgid "Send"
 msgstr ""
@@ -1481,7 +1481,7 @@ msgstr ""
 msgid "Show Link"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:157
+#: src/components/layouts/AddressOverview.vue:143
 msgid "Signup"
 msgstr ""
 
@@ -1757,11 +1757,11 @@ msgstr ""
 msgid "Try it now"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:182
+#: src/components/layouts/AddressOverview.vue:168
 msgid "Tweet"
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:170
+#: src/components/layouts/AddressOverview.vue:156
 msgid "Tweet about your experience with a Twitter account that’s at least 1 month old."
 msgstr ""
 
@@ -1793,7 +1793,7 @@ msgstr ""
 msgid "Unlock at any time. Your NIM will be available within 12 hours."
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:174
+#: src/components/layouts/AddressOverview.vue:160
 msgid "Until end of March, 10 swaps will get reimbursed."
 msgstr ""
 
@@ -1849,8 +1849,8 @@ msgstr ""
 msgid "What else?"
 msgstr ""
 
-#: src/components/stake/StakedAlreadyPage.vue:151
-#: src/components/stake/StakeGraphPage.vue:140
+#: src/components/stake/StakedAlreadyPage.vue:153
+#: src/components/stake/StakeGraphPage.vue:148
 msgid "will be available within ~{duration}"
 msgstr ""
 
@@ -1879,7 +1879,7 @@ msgstr ""
 msgid "You can receive more free NIM in {waitTime} hours."
 msgstr ""
 
-#: src/components/layouts/AddressOverview.vue:166
+#: src/components/layouts/AddressOverview.vue:152
 msgid "You did it – time to spread the word. Promote Nimiq and win your Euro back! "
 msgstr ""
 

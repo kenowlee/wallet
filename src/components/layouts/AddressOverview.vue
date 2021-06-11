@@ -88,6 +88,9 @@
                     </div>
                 </div>
             </div>
+            <div class="staking flex-row">
+                <StakePreviewPartial v-if="activeCurrency === 'nim'"/>
+            </div>
             <div class="actions flex-row">
                 <SearchBar v-model="searchString"/>
 
@@ -104,25 +107,7 @@
                     ) }}
                 </button>
 
-                <Tooltip
-                    v-if="activeCurrency === 'nim'"
-                    class="staking-feature-tip"
-                    preferredPosition="bottom left"
-                    :container="this">
-                    <div slot="trigger">
-                        <button class="stake"
-                            :class="{ stackattack: stackattack }" @click="$router.push('/stake')"
-                            @mousedown.prevent
-                            :disabled="(activeCurrency === 'nim' && (!activeAddressInfo || !activeAddressInfo.balance))
-                            || activeCurrency !== 'nim'"
-                        >
-                            <StakingHeroIcon />
-                        </button>
-                    </div>
-                    <span>
-                        {{ $t('Earn ~304 NIM a month by staking your NIM') }}
-                    </span>
-                </Tooltip>
+                <StakeButtonPartial />
 
                 <button class="receive nq-button-s flex-row"
                     @click="$router.push(activeCurrency === 'nim' ? '/receive' : '/btc-receive')" @mousedown.prevent
@@ -207,7 +192,6 @@ import {
     ArrowLeftIcon,
     MenuDotsIcon,
     CrossIcon,
-    Tooltip,
 } from '@nimiq/vue-components';
 // @ts-expect-error missing types for this package
 import { Portal } from '@linusborg/vue-simple-portal';
@@ -221,10 +205,12 @@ import SearchBar from '../SearchBar.vue';
 import TransactionList from '../TransactionList.vue';
 import BtcTransactionList from '../BtcTransactionList.vue';
 import MobileActionBar from '../MobileActionBar.vue';
+import StakePreviewPartial from '../stake/partials/StakePreviewPartial.vue';
+import StakeButtonPartial from '../stake/partials/StakeButtonPartial.vue';
+
 import RenameIcon from '../icons/AccountMenu/RenameIcon.vue';
 import RefreshIcon from '../icons/RefreshIcon.vue';
-import StakingHeroIcon from '../icons/Staking/StakingHeroIcon.vue';
-import DevBar, { ENABLED_FEATURES as ENABLED } from '../widgets/DevBar.vue';
+import DevBar from '../widgets/DevBar.vue';
 
 import { useAccountStore } from '../../stores/Account';
 import { useAddressStore } from '../../stores/Address';
@@ -245,7 +231,6 @@ export default defineComponent({
         const { accountBalance: btcAccountBalance } = useBtcAddressStore();
         const { promoBoxVisible, setPromoBoxVisible } = useSwapsStore();
 
-        const stackattack = computed(() => ENABLED.stackattack);
         const searchString = ref('');
 
         const unclaimedCashlinkCount = ref(0);
@@ -314,7 +299,6 @@ export default defineComponent({
             CryptoCurrency,
             promoBoxVisible,
             setPromoBoxVisible,
-            stackattack,
         };
     },
     components: {
@@ -324,7 +308,6 @@ export default defineComponent({
         GearIcon,
         RenameIcon,
         RefreshIcon,
-        StakingHeroIcon,
         Copyable,
         Amount,
         FiatConvertedAmount,
@@ -338,8 +321,9 @@ export default defineComponent({
         EventIcon,
         CrossIcon,
         CrossCloseButton,
-        Tooltip,
         DevBar,
+        StakePreviewPartial,
+        StakeButtonPartial,
     },
     directives: {
         responsive: ResponsiveDirective,
@@ -655,41 +639,6 @@ export default defineComponent({
         font-weight: bold;
         line-height: .5rem;
     }
-}
-
-.stake {
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    padding: 0;
-    margin-left: 0.5rem;
-    transition: opacity 1s ease-in-out;
-    opacity: 0.7;
-    svg {
-        width: 6.75rem;
-        height: 6.75rem;
-    }
-    &.stackattack {
-        svg {
-            animation: flicker 15s ease alternate infinite;
-            path:nth-child(1), path:nth-child(2), path:nth-child(4) {
-                animation: fastwave 3s ease alternate infinite;
-            }
-            path:nth-child(1) {
-                animation-delay: .5s;
-            }
-            path:nth-child(2) {
-                animation-delay: .7s;
-            }
-            path:nth-child(4) {
-                animation-delay: .9s;
-            }
-        }
-    }
-}
-
-.stake:hover {
-    opacity: 1.0;
 }
 
 @keyframes flicker {
