@@ -661,7 +661,7 @@ msgstr ""
 msgid "Early Access means that there are limits in place for swaps. They may be increased gradually."
 msgstr ""
 
-#: src/components/stake/partials/StakeButtonPartial.vue:16
+#: src/components/stake/partials/StakeButtonPartial.vue:19
 msgid "Earn ~304 NIM a month by staking your NIM"
 msgstr ""
 
@@ -1850,7 +1850,7 @@ msgid "What else?"
 msgstr ""
 
 #: src/components/stake/StakedAlreadyPage.vue:150
-#: src/components/stake/StakeGraphPage.vue:149
+#: src/components/stake/StakeGraphPage.vue:148
 msgid "will be available within ~{duration}"
 msgstr ""
 
