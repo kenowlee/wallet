@@ -1,7 +1,7 @@
 <template>
     <div class="address-overview"
         :class="{ 'no-accounts flex-column': !activeAddressInfo && activeCurrency !== CryptoCurrency.BTC }">
-        <DevBar />
+        <DevBar v-if="!isMobile" />
         <template v-if="activeAddressInfo || activeCurrency === CryptoCurrency.BTC">
             <div class="actions-mobile flex-row">
                 <button class="reset icon-button" @click="$router.back()"><ArrowLeftIcon/></button>
@@ -255,6 +255,7 @@ export default defineComponent({
         });
 
         const { width: windowWidth } = useWindowSize();
+        const isMobile = computed(() => windowWidth.value <= 700);
 
         const addressMaskedWidth = computed(() => windowWidth.value > 1160
             ? 396
@@ -299,6 +300,7 @@ export default defineComponent({
             CryptoCurrency,
             promoBoxVisible,
             setPromoBoxVisible,
+            isMobile,
         };
     },
     components: {

@@ -31,6 +31,7 @@
                 <MenuIcon/>
                 <AttentionDot v-if="updateAvailable"/>
             </button>
+            <DevBar v-if="isMobile" />
             <button class="reset consensus" @click="$router.push('/network').catch(() => {})">
                 <ConsensusIcon/>
             </button>
@@ -128,6 +129,8 @@ import { CryptoCurrency } from '../../lib/Constants';
 import { useBtcNetworkStore } from '../../stores/BtcNetwork';
 import { useSettingsStore } from '../../stores/Settings';
 
+import DevBar from '../widgets/DevBar.vue';
+
 const BTC_ACTIVATION_SHOWN_STORAGE_KEY = 'btc-activation-modal-shown';
 
 export default defineComponent({
@@ -147,6 +150,7 @@ export default defineComponent({
             && activeAccountInfo.value.btcAddresses.external.length > 0);
 
         const { width } = useWindowSize();
+        const isMobile = computed(() => width.value <= 700);
 
         function onAddressSelected() {
             setActiveCurrency(CryptoCurrency.NIM);
@@ -219,6 +223,7 @@ export default defineComponent({
             hasBitcoinAddresses,
             btcConsensus,
             updateAvailable,
+            isMobile,
         };
     },
     components: {
@@ -237,6 +242,7 @@ export default defineComponent({
         Amount,
         FiatConvertedAmount,
         AttentionDot,
+        DevBar,
     },
 });
 </script>
