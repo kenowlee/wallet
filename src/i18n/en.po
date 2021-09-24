@@ -856,22 +856,13 @@ msgstr ""
 
 #: src/components/BtcTransactionListItem.vue:206
 #: src/components/modals/BtcTransactionModal.vue:443
-#: src/components/modals/TransactionModal.vue:467
-#: src/components/TransactionListItem.vue:184
 #: src/lib/DataFormatting.ts:21
 msgid "HTLC Creation"
 msgstr ""
 
 #: src/components/BtcTransactionListItem.vue:206
 #: src/components/modals/BtcTransactionModal.vue:443
-#: src/components/modals/TransactionModal.vue:478
-#: src/components/TransactionListItem.vue:195
 msgid "HTLC Refund"
-msgstr ""
-
-#: src/components/modals/TransactionModal.vue:471
-#: src/components/TransactionListItem.vue:188
-msgid "HTLC Settlement"
 msgstr ""
 
 #: src/lib/DataFormatting.ts:25
@@ -1086,10 +1077,6 @@ msgstr ""
 
 #: src/components/ContactBook.vue:28
 msgid "Name your contact"
-msgstr ""
-
-#: src/components/layouts/Sidebar.vue:50
-msgid "Network"
 msgstr ""
 
 #: src/components/modals/BtcSendModal.vue:85
@@ -1749,7 +1736,6 @@ msgstr ""
 
 #: src/components/BtcTransactionList.vue:241
 #: src/components/BtcTransactionList.vue:263
-#: src/components/TransactionList.vue:252
 #: src/components/TransactionList.vue:274
 msgid "This month"
 msgstr ""
